@@ -11,6 +11,7 @@ import { PerfilComponent } from './body/perfil/perfil.component';
 import { HomeComponent } from './body/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReservationsComponent } from './body/reservations/reservations.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ReservationsComponent } from './body/reservations/reservations.componen
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

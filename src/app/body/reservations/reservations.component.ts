@@ -6,10 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./reservations.component.css']
 })
 export class ReservationsComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit() {
   }
-
 }
