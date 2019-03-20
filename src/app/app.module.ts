@@ -12,6 +12,10 @@ import { HomeComponent } from './body/home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReservationsComponent } from './body/reservations/reservations.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { RoomsComponent } from './body/rooms/rooms.component';
+import { WeComponent } from './body/we/we.component';
+import { TheaterPlaysComponent } from './body/theater-plays/theater-plays.component';
+import { ContactUsComponent } from './body/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     PerfilComponent,
     HomeComponent,
     ReservationsComponent,
+    RoomsComponent,
+    WeComponent,
+    TheaterPlaysComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,

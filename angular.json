@@ -26,7 +26,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/js/metro.js"
             ],
             "es5BrowserSupport": true
           },

@@ -26,20 +26,40 @@
             </select>
           </div>
         </div>
-        <div class="card-footer">
-          <div class="form-group">
-            <button type="button" class="button primary outline">Reservar</button>
-            <button type="button" class="button success outline" onOpen="data-on-open">Mis Reservas</button>
-          </div>
+        <div class="card-footer row">
+          <button type="button" class="button primary outline cell-4">Reservar</button>
+          <button type="button" class="button success outline cell-4">Mis Reservas</button>     
         </div>
       </form>
     </div>
-</div>
-
-<div class="info-box" data-role="infobox">
-  <span class="button square closer"></span>
-  <div class="info-box-content">
-      <h3>What is Lorem Ipsum?</h3>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-  </div>
+    <div class="card cell-6">
+      <div class="card-header">
+        <div class="form-group">
+          <label class="text-center"><h1>Reservas</h1></label>
+        </div>
+      </div>
+      <div class="card-content">
+        <table class="table">
+          <thead>
+          <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+          </tr>
+          </thead>
+          <tbody class="row-hover">
+          <tr>
+              <td>1</td>
+              <td>Bill</td>
+              <td>Gates</td>
+              <td>@billy</td>
+          </tr>
+          </tbody>
+      </table>
+      </div> 
+      <div class="card-footer row">
+        <button type="button" class="button warning outline cell-4 + offset-4">Ocultar</button>
+      </div> 
+    </div>
 </div>
